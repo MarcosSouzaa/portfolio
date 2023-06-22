@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #acffe9;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #540045;
+    padding-top: 2%;
+}
+
+h2 {
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    color: #c60052;  
+    
+}
+
+.leticia_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;  /*define a altura da div para ocupar 70% da altura da área de visualização do navegador.*/
+}
+
+.efeitos_img {
+    border: 2px solid #ff714b ;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #540045;       
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
